@@ -1,61 +1,97 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Matcha</title>
+    <style>
+        h1 {
+        color: #025157;
+        }
+    </style>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+    <section class="fixed-header">
         <header class="header">
-            <a href="/" class="logo">
-                <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="headerImg">
-            </a>
-            <!-- Menu -->
-            <nav class="navbar">
-                <ul>
-                    <li>Platform</li>
-                    <li>Pricing</li>
-                    <li>Customer</li>
-                    <li>Resources</li>
-                    <li>about</li>
-                </ul>
-            </nav>
-            <!--Acciones-->
-            <div class="actions">
-                <a href="/login">Sign In</a>
-                <button>Start free trial</button>
-              </div>
+        <!-- Regresar página principal -->
+        <a href="/" class="logo">
+            <img src="https://getmatcha.com/wp-content/uploads/2020/01/Icon-green.png" alt="Matcha">
+        </a>
+        <!-- Menú -->
+        <nav class="navbar">
+            <ul>
+            <li>Platform</li>
+            <li>Pricing</li>
+            <li>Customers</li>
+            <li>Resources</li>
+            <li>About</li>
+            </ul>
+        </nav>
+        <!-- Acciones -->
+        <div class="actions">
+            <a href="">Sign In</a>
+            <button>Start free trial</button>
+        </div>
         </header>
-        <section class="main">
-            <h1>LIVE SERVER</h1>
-            <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis iste quasi sint voluptatum dolorem! 
-                <strong>
-                    Facere facilis, voluptate quis a excepturi inventore doloribus, dicta rerum dolorem quia aut deleniti iste repudiandae!
-                </strong>
-            </P>
-
+    </section>
+    <section class="main">
+        <h1>Build your. Build your business</h1>
+        <p>Instantly publish articles, drive more traffic, grow your email list, and see your blog's impact on sales</p>
+        <form>
+        <input type="email" />
+        <button type="submit">
+            Try it now &rarr;
+        </button>
+        </form>
+        <label>
+            Start publishing today with a <strong>7-day trial.</strong>
+        </label>
+        <p>
+            <strong>No credit card</strong> required.
+        </p>
+        <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="Imagen capterra" />
+    </section>
+    <section class="promo">
+        <article class="explanatory-video">
+            <video 
+                controls
+                poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg"
+            >
+                <source
+                    type="video/mp4"
+                    src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4"
+                >
+                <source
+                    type="video/webm"
+                    src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm"
+                >
+            </video>
+            <img src="https://images.vexels.com/media/users/3/206269/isolated/preview/5bf110f14d50531aaca26c251c3441aa-doodle-de-flecha-vertical.png" alt="Promo">
+        </article>
+        <article class="publish">
+            <h3>Publish to your blog in minutes, not hours.</h3>
+            <p>
+                <strong>Your blog is your most powerful asset to build, engage, and retain a loyal
+                audience.</strong>But you don’t have hours to create content that may or may not
+                work. With Matcha, instantly publish from our library of 10,000+
+                professionally written articles and build your email list faster with our
+                powerful conversion tool.
+            </p>
             <form>
-                <input type="email" />
-                <button type="submit">Try it now &rarr;</button>
-
+                <label>Start publishing today:</label>
+                <div>
+                    <input type="email" placeholder="Enter email" />
+                    <button>Start My Trial</button>
+                </div>
             </form>
-            <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="ignosBlog" />
-            <div id="matchaImage">
-                <img src="https://assets.bedu.org/contents/TECM0017FRFUV2_Fronted_fundamentals_V2/TECM0017FRFUV2_S1_3_1.png" />
-            </div>
-
-            <div class="contenedor">
-                <div class="cuadrado"></div>
-                <div class="cuadrado"></div>
-                <div class="cuadrado"></div>
-            </div>
-            
-            <a href="">Hello</a>
-            <a href="">Hello</a>
-        </section>
-    </body>
+        </article>
+    </section>
+</body>
 </html>
