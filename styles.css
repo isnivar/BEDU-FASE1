@@ -10,8 +10,8 @@ h1 {
 
 p {
   color: #8b8b8bcc;
-  font-family: Verdana;
-  font-size: 20px;
+  font-family: 'Rubik';
+  font-size: 15px;
 }
 
 button {
@@ -69,7 +69,7 @@ li {
 }
 
 .actions > * {
-  margin: 0 10px;
+  margin: 0 5px;
 }
 
 .actions a {
@@ -137,4 +137,54 @@ li {
 .explanatory-video img {
   width: 30px;
   margin-top: 10px;
+}
+
+.features {
+  height: auto;
+  background-color: #025157;
+  display: grid;
+  grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+  padding: 5% 5%;
+}
+
+.features .featureCard {
+  border-radius: 25px;
+  margin: 15px 1em;
+  background-color: white;
+  padding: 5%;
+}
+
+.featureCard {
+  text-align: left;
+  display: flex;
+}
+
+.featureCard h2{
+  text-align: left;
+  display: flex;
+  color: #343434;
+  font-size: 25px;
+  font-family: 'Fira Sans';
+}
+
+.featureCard p{
+  font-size: 16px;
+  color: #7e7e7e;
+  font-weight: 400;
+  font-family: 'Fira Sans';
+}
+
+.featureCard img {
+  width: 50px;
+  margin-left: 50px;
+}
+
+.featureCard article a {
+  color: #67b54b;
+  font-size: 20px;
+}
+
+.featureImg{
+  margin-top: 0;
+  height: 100%;
 }
